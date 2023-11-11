@@ -175,12 +175,12 @@ body {
 }
 .adress-footer {
   font-size: 16px;
-  line-height: 1, 17;
+  line-height: 1.17;
   color: var(--color-light);
 }
 .adress-footer:hover {
   font-size: 16px;
-  line-height: 1, 17;
+  line-height: 1.17;
   color: var(--color-brand-blue-light);
 }
 .privacy-policy-footer {
