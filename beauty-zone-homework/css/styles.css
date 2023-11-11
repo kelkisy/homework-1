@@ -1,0 +1,200 @@
+/* styles */
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-weight: 400;
+  src: url('../fonts/play-v19-latin-regular.woff2')
+    format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-weight: 700;
+  src: url('../fonts/play-v19-latin-700.woff2')
+    format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2')
+    format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-latin-700.woff2')
+    format('woff2');
+}
+/* base */
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+ul {
+  list-style-type: none;
+}
+:root {
+  --color-brand-blue-light: #2b7fff;
+  --color-brand-blue-dark: #011c44;
+  --color-light: #fff;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-brand-blue-dark);
+}
+/* links */
+.link {
+  font-weight: 400;
+  color: var(--color-brand-blue-dark);
+}
+.link:hover {
+  font-weight: 700;
+  color: var(--color-brand-blue-light);
+}
+/* header */
+.logo {
+  font-size: 22px;
+  font-family: 'Play';
+  line-height: 0.95;
+  text-transform: capitalize;
+  color: var(--color-brand-blue-light);
+}
+.small-text-header {
+  color: #4a4a4a;
+  font-size: 12px;
+}
+.hero-title {
+  color: var(--color-brand-blue-light);
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 0.8;
+  font-family: Play, Roboto, sans-serif;
+}
+/* buttons */
+.button {
+  background-color: var(--color-brand-blue-light);
+  color: var(--color-light);
+  font-weight: 700;
+  border-radius: 32px;
+  cursor: pointer;
+  border: 2px solid var(--color-brand-blue-light);
+}
+.button:hover {
+  background-color: transparent;
+  border-radius: 32px;
+  border: 2px solid var(--color-brand-blue-light);
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--color-brand-blue-dark);
+}
+
+.button:active {
+  background-color: transparent;
+  border-radius: 32px;
+  border: 2px solid var(--color-brand-blue-light);
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--color-brand-blue-dark);
+}
+/* titles */
+.section-title {
+  font-family: Play, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+.section-title .blue-highlighted-title {
+  font-family: Play, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--color-brand-blue-light);
+}
+/* change with beaty zone */
+.about-us-section-text {
+  font-size: 22px;
+  line-height: 1.7;
+}
+.about-us-section-text .accent {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.7;
+  text-transform: capitalize;
+}
+/* why us */
+.section-why-us-text {
+  line-height: 1.3;
+  color: black;
+}
+.procedures-title {
+  color: var(--color-light);
+  font-size: 22px;
+  line-height: 1.18;
+}
+
+/* our procedures */
+/* location */
+.contact-title {
+  font-size: 22px;
+  color: var(--color-light);
+  font-weight: 700;
+  line-height: 1.17;
+}
+.contact-title .blue-highlighted-title {
+  color: var(--color-brand-blue-light);
+}
+.privacy-policy-contact-section {
+  font-size: 12px;
+  color: #747272;
+}
+.privacy-policy-contact-section-link {
+  text-decoration: underline;
+  color: #747272;
+}
+/* footer */
+.logo-footer {
+  font-size: 24px;
+  font-family: 'Play';
+  line-height: 0.875;
+  text-transform: capitalize;
+  color: var(--color-brand-blue-light);
+}
+.footer-link {
+  font-weight: 400;
+  color: var(--color-light);
+  font-size: 16px;
+}
+.footer-link:hover {
+  font-weight: 700;
+  color: var(--color-brand-blue-light);
+  font-size: 18px;
+}
+.adress-footer {
+  font-size: 16px;
+  line-height: 1, 17;
+  color: var(--color-light);
+}
+.adress-footer:hover {
+  font-size: 16px;
+  line-height: 1, 17;
+  color: var(--color-brand-blue-light);
+}
+.privacy-policy-footer {
+  font-size: 16px;
+  line-height: 1.17;
+  color: var(--color-light);
+}
+.privacy-policy-footer:hover {
+  font-size: 16px;
+  line-height: 1.17;
+  color: var(--color-light);
+  text-decoration: underline;
+}
+.data-is-protected {
+  color: #747272;
+  font-size: 13px;
+}
